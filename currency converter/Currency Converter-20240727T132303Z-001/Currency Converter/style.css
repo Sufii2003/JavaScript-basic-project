@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+body {
+  background-color: #000000;
+}
+.wrapper {
+  width: 90%;
+  max-width: 25em;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 2em;
+  border-radius: 3em;
+}
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icon {
+  width: 9.37em;
+}
+.title {
+  font-size: 1.6em;
+  margin-bottom: 1em;
+}
+label {
+  display: block;
+  font-weight: 900;
+}
+input#amount {
+  font-weight: 400;
+  font-size: 1.2em;
+  width: 100%;
+  border-bottom: 2px solid #02002c;
+  color: #000000;
+  margin-bottom: 2em;
+  padding: 0.5em;
+}
+.dropdown {
+  display: flex;
+  gap: 4em;
+}
+select {
+  width: 100%;
+  padding: 0.6em;
+  font-size: 1em;
+  border-radius: 20%;
+  appearance: none;
+  background-image: url("arrow1.png");
+  background-repeat: no-repeat;
+  background-position: right 15px top 50%, center;
+  background-size: 30px 30px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+select option {
+  background-color: #000000;
+  color: #ffffff;
+}
+button {
+  font-size: 1em;
+  width: 100%;
+  background-color: #000000;
+  padding: 1em 0;
+  margin-top: 2em;
+  border-radius: 20%;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover{
+  transform: scale(0.96);
+}
+#result {
+  font-size: 1.2em;
+  font-weight: 950;
+  text-align: center;
+  margin-top: 1em;
+  color: #fc2323;
+  padding: 0.8em 0;
+}
+
